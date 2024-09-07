@@ -146,9 +146,6 @@ class HumanPlayer extends Player
 
 class AIPlayer extends Player
 {
-	String name;
-	char mark;
-	
 	AIPlayer(String name, char mark)
 	{
 		this.name = name;
@@ -174,7 +171,7 @@ public class LaunchGame {
 	public static void main(String[] args) {
 		TicTacToe t = new TicTacToe();
 		
-		HumanPlayer p1 = new HumanPlayer("Bob", 'X');
+		HumanPlayer p1 = new HumanPlayer("Pragya", 'X');
 		AIPlayer p2 = new AIPlayer("AI", 'O');
 		
 		Player cp;
